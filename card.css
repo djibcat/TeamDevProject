@@ -1,15 +1,16 @@
-
-.rating2 a {
-    float: center;
+.rating {
+    direction: rtl;
+ }
+ .rating a {
     color: #aaa;
     text-decoration: none;
     font-size: 3em;
     transition: color .4s;
  }
- .rating2 a:hover,
- .rating2 a:focus,
- .rating2 a:hover ~ a,
- .rating2 a:focus ~ a {
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
     color: orange;
     cursor: pointer;
  }
