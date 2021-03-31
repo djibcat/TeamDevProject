@@ -6,13 +6,14 @@ const MDP = "";
 
 try
 {
-    $bdd = new PDO(
+    $db = new PDO(
         'mysql:host='.HOST.';
         dbname='.DB_NAME.';
         charset=utf8',
         USER,
         MDP);
 
+        echo 'connexion ok';
 }
 catch(Exception $e)
 {
