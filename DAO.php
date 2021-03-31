@@ -12,8 +12,6 @@ try
         charset=utf8',
         USER,
         MDP);
-
-        echo 'connexion ok';
 }
 catch(Exception $e)
 {
