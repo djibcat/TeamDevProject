@@ -9,7 +9,7 @@ $sql = "SELECT * FROM jeux";
 $req = $bdd->query($sql) or die('Erreur SQL !<br>'.$sql.'<br>'.$bdd->errorInfo());
 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
 
-while ($donnees = $reponse->fetch()) {
+while ($donnees = $req->fetch()) {
 ?>
 
 <section class="container">
