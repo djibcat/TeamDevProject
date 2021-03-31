@@ -1,0 +1,23 @@
+
+.rating2 a {
+    float: center;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+ }
+ .rating2 a:hover,
+ .rating2 a:focus,
+ .rating2 a:hover ~ a,
+ .rating2 a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ }
+#date {
+    float:right;
+}
+
+#marge {
+ margin-top: 15px;
+
+}
